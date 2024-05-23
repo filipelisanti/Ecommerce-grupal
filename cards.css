@@ -27,6 +27,21 @@ a{
    
 
 }
+/*Animaciones*/
+.titulo{
+    animation-duration: 2s;
+    animation-name: example;
+    animation-delay: 0.5s;
+    
+}
+@keyframes example{
+    from {
+        background-color:darkslategray;
+    }
+    to {
+        background-color: #B51B75;
+    }
+}
 
 .card{
     background-color: #F8D082;
@@ -40,9 +55,11 @@ a{
     box-shadow: -10px 5px 10px 10px black
 
 }
+/*Transiciones*/
 .card:hover{
     transform: scale(1.04);
     transition: all 0.3s ease-in-out;
+    
 }
 #titulo{
     text-align: center;
